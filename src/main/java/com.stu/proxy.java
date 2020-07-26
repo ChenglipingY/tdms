@@ -102,6 +102,7 @@ public class ProxyTest {
         //设置目标拦截器
         enhancer.setCallback(new Usernterceptor());
         // 创建代理对象
+        // master  create some method and do some fixbug  <<  master
         //   UserService userService1 = (UserService)enhancer.create();
         //  userService1.getUser("cglib 动态代理");
         // 通过代理对象调用目标方法  test add proxy git
