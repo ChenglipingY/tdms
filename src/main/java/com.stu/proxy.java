@@ -107,6 +107,7 @@ public class ProxyTest {
         //  userService1.getUser("cglib 动态代理");
         // 通过代理对象调用目标方法  test add proxy git
         // master add some variable << master
+        // fix change some code <<  fix
         return enhancer.create();
     }
 }
